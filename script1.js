@@ -1,3 +1,7 @@
+//EXERCICE 1 : 
+//Ecrivez un programme en javascript qui fait deviner un nombre entre 1 et 100 (dans la console).
+//Limitez le nombre de tentatives à 6 essais.
+
 const al = Math.floor(Math.random() * 1) + 100;
 let tour = 1;
 let gagner = false;
@@ -15,3 +19,4 @@ while (tour < 7 && gagner == false) {
         alert("Entrez une valeur plus grande")
     }
 }
+
