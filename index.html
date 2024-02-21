@@ -7,20 +7,45 @@
 </head>
 
 <body>
-    <h2>Villes de quelques destinations</h2>
-    <p>Destinations : </p>
-    <form action="#" method="POST" id="formulaire">
+    <form action="#" method="POST">
+        <label for="monText">Pseudo</label>
+        <input type="text" id="monPseudo" name="monPseudo">
+
+    </form>
+    <form action="#" method="POST">
+        <label for="monText">Adresse mail</label>
+        <input type="email" id="monEmail" name="monEmail">
+
+    </form>
+    <form action="#" method="POST">
+        <label for="monText">Mot de passe</label>
+        <input type="password" id="monMdp" name="monMdp">
+
+    </form>
+    <form action="#" method="POST">
+        <label for="monText">Vérifier le mot de passe</label>
+        <input type="password" id="monMdp2" name="monMdp2">
+
+    </form>
+    <form action="#" method="POST">
+        <label for="monText">Couleur préférée</label>
+        <input type="color" id="maCoulor" name="maCoulor">
+
+    </form>
+    <p>Entrez votre famille :</p>
+    <form action="#" method="POST">
         <select id="listeDeroulante" name="listeChoix">
             <option>---</option>
-            <option value="a">France</option>
-            <option value="b">Espagne</option>
-            <option value="c">Italie</option>
+            <option value="a">rouge</option>
+            <option value="b">jaune</option>
+            <option value="c">bleu</option>
+            <option value="d">vert</option>
+            <option value="e">orange</option>
         </select>
     </form>
-    <ul id="maliste">
-    </ul>
+    <button id="bouton">Envoyer</button>
 </body>
 
-<script src="script3.js"></script>
+<script src="script4.js"></script>
 
 </html>
